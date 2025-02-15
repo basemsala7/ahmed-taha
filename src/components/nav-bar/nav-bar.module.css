@@ -1,0 +1,38 @@
+.navBar {
+  width: 100%;
+  max-width: fit-content;
+  position: fixed;
+  bottom: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #1f1f1f80;
+  padding: 8px;
+  border: 1px solid #262626;
+}
+.navBar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.navBar li {
+  display: inline-block;
+  margin-inline: 8px;
+  background-color: var(--link-background);
+  border-radius: 4px;
+}
+
+.navBar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.navBar li a:hover:not(.active) {
+  background-color: var(--active-link-background);
+  color: var(--active-text-color);
+}

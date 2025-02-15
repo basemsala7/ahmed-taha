@@ -1,0 +1,19 @@
+.HorizontalContainer {
+  position: relative;
+  height: 300vh;
+}
+.styciyContainer {
+  position: sticky;
+  top: 0;
+  display: flex;
+  overflow: hidden;
+}
+.itemsContainer {
+  display: flex;
+  gap: 16px;
+}
+.itemsContainer > img {
+  width: 616px;
+  height: 483px;
+  border-radius: 8px;
+}

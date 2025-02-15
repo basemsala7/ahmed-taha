@@ -1,0 +1,45 @@
+.homeSection {
+  border: 1px solid red;
+  position: relative;
+}
+.heroOverlay {
+  z-index: -1;
+  opacity: 0.2;
+  object-fit: cover;
+  transform-style: preserve-3d;
+  width: 100%;
+  position: absolute;
+  inset: 0%;
+  transform: rotateX(180deg) rotateY(0) rotateZ(0);
+}
+.homeSection h1 {
+  color: var(--text-color);
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 170px;
+  letter-spacing: 20px;
+}
+.heroContentWrapper {
+  max-width: 80%;
+  margin-inline: auto;
+}
+.upContainer,
+.dowenContainer {
+  overflow: hidden;
+  display: flex;
+  flex-wrap: nowrap;
+}
+.upContainer {
+  margin-bottom: 8px;
+  margin-left: 6px;
+}
+.upContainer > img,
+.dowenContainer > img {
+  display: inline;
+  margin-right: 8px;
+  border-radius: 8px;
+  object-fit: cover;
+  width: 100%;
+  max-width: 360px;
+  height: 282px;
+}

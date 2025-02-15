@@ -1,0 +1,27 @@
+.heroTitleWrapper {
+  border-radius: 0.2rem;
+  padding-inline: 0.5rem;
+  background-color: var(--main-color);
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 5.501vh;
+  padding: 1rem 0.7rem;
+  display: flex;
+}
+.heroTitleWrapper > div {
+  display: flex;
+  gap: 16px;
+}
+.starIcon {
+  width: 24px;
+  height: 24px;
+}
+.heroTitleWrapper > div span {
+  align-self: center;
+  color: black;
+  text-transform: uppercase;
+  font-size: 1rem;
+  line-height: 1.2;
+  font-weight: 600;
+}

@@ -1,0 +1,19 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --main-color: #d6a816;
+  --background: black;
+  --head-color: white;
+  --link-background: #262626;
+  --active-link-background: white;
+  --text-color: white;
+  --active-text-color: black;
+}
+body {
+  background-color: var(--background);
+  font-family: sans-serif;
+}
